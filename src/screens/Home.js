@@ -9,7 +9,8 @@ import {
   ScrollView,
   TouchableOpacity,
 } from "react-native";
-import ProfileIcon from "../widgets/ProfileIcon";
+import ProfileIcon from "../components/ProfileIcon";
+import { Colors } from "../theme/Colors";
 
 const { width } = Dimensions.get("window");
 const height = width * 0.7;
@@ -142,10 +143,11 @@ export default class Home extends React.Component {
     );
   }
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: Colors.white,
     paddingVertical: 20,
   },
 

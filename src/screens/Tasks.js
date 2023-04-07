@@ -9,7 +9,7 @@ import {
   Dimensions,
 } from "react-native";
 import Ionicons from "@expo/vector-icons/Ionicons"; //(e.g <Ionicons name='md-checkmark-circle' size={32} color='green' />)
-import ProfileIcon from "../widgets/ProfileIcon";
+import ProfileIcon from "../components/ProfileIcon";
 
 const containerWidth = Dimensions.get("window").width - 50;
 
